@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>Adam Tech</string>
+	<key>PayloadDescription</key>
+	<string>Configures your device to use Adam Tech DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.adamtech.profile</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>73422084-D9AD-46E6-91FA-D525A5979623</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.adguard-dns.com/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.14</string>
+					<string>94.140.15.15</string>
+				</array>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadIdentifier</key>
+			<string>com.adamtech.managed</string>
+			<key>PayloadUUID</key>
+			<string>494319C7-29BD-4A52-BC43-FAAB80A7805F</string>
+			<key>PayloadDisplayName</key>
+			<string>Adam Tech</string>
+			<key>PayloadOrganization</key>
+			<string>Adam Tech</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadDescription</key>
+			<string>Configures your device to use Adam Tech DNS</string>
+			<key>OnDemandEnabled</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+</dict>
+</plist>
